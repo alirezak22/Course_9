@@ -1,0 +1,96 @@
+﻿
+@font-face {
+    font-family: 'SHABNAM';
+    src: url('../font/SHABNAM.TTF') format('truetype');
+}
+
+* {
+    font-family: 'SHABNAM';
+}
+
+body {
+    direction:rtl;
+    text-align:right;
+    margin:0;
+    padding:0;
+}
+.top-header {
+    width: 100%;
+    height: 30px;
+    text-align: center !important;
+    padding-top: 5px;
+    background-color: #FFCDD2 
+}
+
+nav {
+    padding-left:15%;
+    padding-right:15%;
+    width: 70%;
+    height: 80px;
+    background-color: #1976D2;
+    color:white
+}
+a{
+    text-decoration:none;
+}
+nav > ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 29px;
+}
+nav>ul li{
+    display:inline;
+    
+}
+.nav-link{
+    margin:25px;
+    color:white
+}
+.nav-link:hover{
+    color:yellow;
+}
+.btn1 {
+    padding: 10px 20px;
+    border: 3px solid #FFF9C4;
+    background: #FDD835;
+    color: black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    transition-duration: 0.5s;
+}
+    .btn1:hover {
+        border: 3px solid #FFF9C4;
+        background: #FFA000;
+        color: black;
+        transition-duration: 0.5s;
+    }
+main {
+    padding-left: 15%;
+    padding-right: 15%;
+    width: 70%;
+}
+section{
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.hero {
+    width: 100%;
+    height: 700px;
+    border-radius: 25px;
+    border: 1px solid #1976D2;
+    box-shadow: 0 0 20px #1976D2;
+    background-image: url('../image/112.jpg');
+   background-position:30% top;
+}
+.hero-title{
+    font-size:50px;
+    margin-top:150px;
+    margin-right:40px;
+}
+.hero-text{
+    font-size:18px;
+    margin-top:40px;
+    margin-right:40px;
+}
