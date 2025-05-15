@@ -72,7 +72,7 @@ main {
     width: 70%;
 }
 section{
-    margin-top:25px;
+    margin-top:65px;
     margin-bottom:25px;
 }
 .hero {
@@ -93,4 +93,60 @@ section{
     font-size:18px;
     margin-top:40px;
     margin-right:40px;
+}
+.box-50 {
+    width: 50%;
+    min-height: 350px;
+   
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.title{
+    padding:5px 25px 0 0;
+    font-size:35px;
+}
+.p-25{
+    padding:0 25px ;
+}
+.justify{
+    text-align:justify;
+}
+.btn {
+    padding: 10px 20px;
+    border: 3px solid #0277BD;
+    background: #1976D2;
+    color: white;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    float:left;
+}
+    .btn:hover {
+        border: 3px solid #1E88E5;
+        background: #039BE5;
+        color: white;
+        transition-duration: 0.5s;
+    }
+.pt-100{
+    padding-top:100px;
+}.pt-80{
+    padding-top:80px;
+}
+.dark-box {
+    width: 100%;
+    padding: 25px 45px;
+    margin-top: 60px;
+    background-color: #0288D1;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #0277BD;
+    box-shadow: 0 0 15px #01579B;
+    padding-bottom:150px;
+}
+.box-25{
+    width:23%;
+    margin:10px 1%;
+    float:right
 }
