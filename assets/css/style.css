@@ -66,14 +66,12 @@ nav>ul li{
         color: black;
         transition-duration: 0.5s;
     }
-main {
-    padding-left: 15%;
-    padding-right: 15%;
+section {
+    margin-top: 65px;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
     width: 70%;
-}
-section{
-    margin-top:65px;
-    margin-bottom:25px;
 }
 .hero {
     width: 100%;
@@ -134,19 +132,68 @@ section{
     padding-top:80px;
 }
 .dark-box {
-    width: 100%;
-    padding: 25px 45px;
-    margin-top: 60px;
+    width: 90%;
+    padding:  45px 5%;
     background-color: #0288D1;
     color: white;
     text-align: center;
-    border-radius: 25px;
-    border: 2px solid #0277BD;
-    box-shadow: 0 0 15px #01579B;
-    padding-bottom:150px;
+    padding-bottom:200px;
+    position:relative;
+    top:50px;
 }
 .box-25{
     width:23%;
     margin:10px 1%;
     float:right
+}
+.text-center{
+    text-align:center;
+}
+.product {
+    width: 98%;
+    margin: 10px 1%;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 5px lightgray;
+    min-height: 540px;
+    background-color: #fcfcfc;
+    border-radius: 10px
+}
+    .product > img {
+        width: 100%;
+        border-radius: 11px 11px 0 0;
+        border-bottom:1px solid skyblue;
+    }
+    .px-15{
+        padding-left:15px;
+        padding-right:15px
+    }
+    .text-left{
+        text-align:left !important;
+    }
+    .w-100{
+        width:100%;
+    }
+    .f-none{
+        float:none !important;
+    }
+.m-15{
+    margin:15px;
+}
+.dark-bg {
+    background-color: #0277BD;
+    min-height:700px;
+    position:relative;
+    top:45px;
+}
+.dark-img {
+    margin: 18px 0;
+    border-radius: 25px ;
+    box-shadow: 0 0 15px skyblue;
+}
+.text-white{
+    color:white !important;
+}
+.font-50{
+    font-size:60px;
+    margin-top:0
 }
