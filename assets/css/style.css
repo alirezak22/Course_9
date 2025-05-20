@@ -23,12 +23,15 @@ body {
 }
 
 nav {
-    padding-left:15%;
-    padding-right:15%;
+    padding-left: 15%;
+    padding-right: 15%;
     width: 70%;
     height: 80px;
     background-color: #1976D2;
-    color:white
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 99999998;
 }
 a{
     text-decoration:none;
@@ -59,6 +62,7 @@ nav>ul li{
     top: 50px;
     left: 300px;
     transition-duration: 0.5s;
+    z-index:99999999;
 }
     .btn1:hover {
         border: 3px solid #FFF9C4;
@@ -66,7 +70,7 @@ nav>ul li{
         color: black;
         transition-duration: 0.5s;
     }
-section {
+section,.footer {
     margin-top: 65px;
     margin-bottom: 25px;
     margin-left: 15%;
@@ -94,8 +98,6 @@ section {
 }
 .box-50 {
     width: 50%;
-    min-height: 350px;
-   
     float:right;
 }
 .clear{
@@ -146,6 +148,11 @@ section {
     margin:10px 1%;
     float:right
 }
+.box-33{
+    width:31.33333%;
+    margin:10px 1%;
+    float:right
+}
 .text-center{
     text-align:center;
 }
@@ -171,7 +178,7 @@ section {
         text-align:left !important;
     }
     .w-100{
-        width:100%;
+        width:100% !important;
     }
     .f-none{
         float:none !important;
@@ -196,4 +203,65 @@ section {
 .font-50{
     font-size:60px;
     margin-top:0
+}
+.form-control{
+    font-size:15px;
+    border-radius:5px;
+    padding:5px ;
+    margin:15px 2%;
+    width:90%;
+    border:2px solid skyblue;
+}
+.contact{
+    width:90%;
+    padding-right:5%;
+    padding-left:5%;
+}
+textarea.form-control{
+    width:95% !important;
+}
+
+.btn-light {
+    padding: 10px 30px;
+    cursor:pointer;
+    border: 3px solid skyBlue;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    transition-duration: 0.5s;
+    float: left;
+}
+
+    .btn-light:hover {
+        border: 3px solid white;
+        background: skyblue;
+        color: black;
+        transition-duration: 0.5s;
+    }
+    .blog{
+        min-height:360px !important;
+    }
+    .blog>p{
+        margin-top:20px;
+        margin-bottom:30px;
+    }
+    .blog>a{
+
+        position:relative;
+        right:60px;
+    }
+.footer-links{
+    list-style:none;
+    padding:0;
+}
+.footer-links a{
+    color:navajowhite
+}
+.copy-right{
+    margin-top:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+    width:100%;
+    color:white;
+    background-color:skyblue
 }
